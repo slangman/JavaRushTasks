@@ -714,16 +714,303 @@ java.net.ConnectException: Connection timed out: connect
 2018-02-13 19:48:56 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 502
 2018-02-13 19:49:56 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
 2018-02-13 19:50:56 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 502
-2018-02-13 19:51:56 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 502
-2018-02-13 19:52:56 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
-2018-02-13 19:53:56 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 502
-2018-02-13 19:54:56 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
-2018-02-13 19:55:56 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
-2018-02-13 19:56:56 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 502
-2018-02-13 19:57:56 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
-2018-02-13 19:58:56 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 502
-2018-02-13 19:59:56 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
-2018-02-13 20:00:56 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
-2018-02-13 20:01:56 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 502
-2018-02-13 20:02:57 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
-2018-02-13 20:03:56 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-13 21:11:44 INFO  JavaRushTasksProjectComponent.projectOpened(68) - ---------- Project JavaRushTasks opened ----------
+
+2018-02-13 21:11:44 INFO  ApacheHttpClient.createAsyncHttpClient(125) - Выбрано 1 прокси.
+2018-02-13 21:11:44 INFO  ApacheHttpClient.<init>(85) - ApacheHttpClient проинстанциирован успешно.
+2018-02-13 21:11:46 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-02-13 21:11:46 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-02-13 21:11:46 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2018-02-13 21:11:46 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2018-02-13 21:11:46 INFO  ApacheHttpClient.login(213) - responseCode = 200
+2018-02-13 21:11:46 INFO  ApacheHttpClient.login(244) - JSESSIONID=85421E73764595B7E74913DEA57E6C22
+2018-02-13 21:11:46 INFO  ApacheHttpClient.refreshUserInfo(272) - responseCode = 200
+2018-02-13 21:11:46 INFO  ApacheHttpClient.refreshUserInfo(278) - Информация о пользователе получена.
+2018-02-13 21:11:47 INFO  ApacheHttpClient.startGA(32) - GAService запущен.
+2018-02-13 21:11:47 INFO  AbstractRestApiClient.startService(70) - EventsService запущен.
+2018-02-13 21:11:49 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-02-13 21:11:50 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-02-13 21:11:50 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-02-13 21:11:50 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-02-13 21:11:53 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-02-13 21:12:01 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-02-13 21:12:01 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-02-13 21:12:10 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-02-13 21:12:10 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-02-13 21:12:11 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-02-13 21:12:11 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-02-13 21:12:18 ERROR GitLogUtil.error(130) - Could not parse " \n"
+Command git log HEAD --branches --remotes --max-count=2000 --pretty=format:%x01%x01%H%x02%ct%x02%an%x02%at%x02%ae%x02%cn%x02%ce%x02%P%x02%s%x02%b%x02%B%x02%d%x03%x03 --encoding=UTF-8 --decorate=full --
+git4idea.GitFormatException: ONE_RECORD didn't match [\n]
+	at git4idea.history.GitLogParser.throwGFE(GitLogParser.java:285)
+	at git4idea.history.GitLogParser.parseOneRecord(GitLogParser.java:211)
+	at git4idea.history.GitLogUtil.lambda$readRecordsFromHandler$7(GitLogUtil.java:320)
+	at git4idea.history.GitLogOutputSplitter.processTerminated(GitLogOutputSplitter.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.util.EventDispatcher.dispatch(EventDispatcher.java:99)
+	at com.intellij.util.EventDispatcher.access$200(EventDispatcher.java:35)
+	at com.intellij.util.EventDispatcher$2.invoke(EventDispatcher.java:79)
+	at com.sun.proxy.$Proxy101.processTerminated(Unknown Source)
+	at git4idea.commands.GitTextHandler$1.processTerminated(GitTextHandler.java:92)
+	at sun.reflect.GeneratedMethodAccessor91.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.execution.process.ProcessHandler$5.invoke(ProcessHandler.java:239)
+	at com.sun.proxy.$Proxy16.processTerminated(Unknown Source)
+	at com.intellij.execution.process.ProcessHandler$4.run(ProcessHandler.java:196)
+	at com.intellij.execution.process.ProcessHandler$TasksRunner.execute(ProcessHandler.java:272)
+	at com.intellij.execution.process.ProcessHandler.notifyTerminated(ProcessHandler.java:177)
+	at com.intellij.execution.process.ProcessHandler.notifyProcessTerminated(ProcessHandler.java:173)
+	at com.intellij.execution.process.KillableProcessHandler.notifyProcessTerminated(KillableProcessHandler.java:134)
+	at com.intellij.execution.process.BaseOSProcessHandler.onOSProcessTerminated(BaseOSProcessHandler.java:192)
+	at com.intellij.execution.process.OSProcessHandler.onOSProcessTerminated(OSProcessHandler.java:89)
+	at com.intellij.execution.process.BaseOSProcessHandler$2$1.consume(BaseOSProcessHandler.java:155)
+	at com.intellij.execution.process.BaseOSProcessHandler$2$1.consume(BaseOSProcessHandler.java:140)
+	at com.intellij.execution.process.ProcessWaitFor$1.run(ProcessWaitFor.java:66)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-02-13 21:12:18 ERROR GitLogUtil.logErrorHeader(138) - IntelliJ IDEA 2017.3.4  Build #IC-173.4548.28
+2018-02-13 21:12:18 ERROR GitLogUtil.logErrorHeader(145) - JDK: 1.8.0_152-release
+2018-02-13 21:12:18 ERROR GitLogUtil.logErrorHeader(146) - VM: OpenJDK 64-Bit Server VM
+2018-02-13 21:12:18 ERROR GitLogUtil.logErrorHeader(147) - Vendor: JetBrains s.r.o
+2018-02-13 21:12:18 ERROR GitLogUtil.logErrorHeader(148) - OS: Windows 7
+2018-02-13 21:12:18 ERROR GitLogUtil.logErrorHeader(154) - Last Action: 
+2018-02-13 21:12:18 ERROR VcsLogData.error(130) - ONE_RECORD didn't match [\n]
+com.intellij.openapi.vcs.VcsException: ONE_RECORD didn't match [\n]
+	at git4idea.history.GitLogUtil.readRecordsFromHandler(GitLogUtil.java:341)
+	at git4idea.history.GitLogUtil.readRecords(GitLogUtil.java:302)
+	at git4idea.history.GitLogUtil.collectMetadata(GitLogUtil.java:200)
+	at git4idea.history.GitLogUtil.collectMetadata(GitLogUtil.java:177)
+	at git4idea.log.GitLogProvider.readFirstBlock(GitLogProvider.java:111)
+	at com.intellij.vcs.log.data.VcsLogRefresherImpl$2.each(VcsLogRefresherImpl.java:133)
+	at com.intellij.vcs.log.data.VcsLogRefresherImpl$ProviderIterator.iterate(VcsLogRefresherImpl.java:394)
+	at com.intellij.vcs.log.data.VcsLogRefresherImpl.loadRecentData(VcsLogRefresherImpl.java:139)
+	at com.intellij.vcs.log.data.VcsLogRefresherImpl.readFirstBlock(VcsLogRefresherImpl.java:111)
+	at com.intellij.vcs.log.data.VcsLogData$1.run(VcsLogData.java:154)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:713)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:543)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:488)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:94)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl$2.run(ProgressManagerImpl.java:165)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:315)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: git4idea.GitFormatException: ONE_RECORD didn't match [\n]
+	at git4idea.history.GitLogParser.throwGFE(GitLogParser.java:285)
+	at git4idea.history.GitLogParser.parseOneRecord(GitLogParser.java:211)
+	at git4idea.history.GitLogUtil.lambda$readRecordsFromHandler$7(GitLogUtil.java:320)
+	at git4idea.history.GitLogOutputSplitter.processTerminated(GitLogOutputSplitter.java:115)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.util.EventDispatcher.dispatch(EventDispatcher.java:99)
+	at com.intellij.util.EventDispatcher.access$200(EventDispatcher.java:35)
+	at com.intellij.util.EventDispatcher$2.invoke(EventDispatcher.java:79)
+	at com.sun.proxy.$Proxy101.processTerminated(Unknown Source)
+	at git4idea.commands.GitTextHandler$1.processTerminated(GitTextHandler.java:92)
+	at sun.reflect.GeneratedMethodAccessor91.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.execution.process.ProcessHandler$5.invoke(ProcessHandler.java:239)
+	at com.sun.proxy.$Proxy16.processTerminated(Unknown Source)
+	at com.intellij.execution.process.ProcessHandler$4.run(ProcessHandler.java:196)
+	at com.intellij.execution.process.ProcessHandler$TasksRunner.execute(ProcessHandler.java:272)
+	at com.intellij.execution.process.ProcessHandler.notifyTerminated(ProcessHandler.java:177)
+	at com.intellij.execution.process.ProcessHandler.notifyProcessTerminated(ProcessHandler.java:173)
+	at com.intellij.execution.process.KillableProcessHandler.notifyProcessTerminated(KillableProcessHandler.java:134)
+	at com.intellij.execution.process.BaseOSProcessHandler.onOSProcessTerminated(BaseOSProcessHandler.java:192)
+	at com.intellij.execution.process.OSProcessHandler.onOSProcessTerminated(OSProcessHandler.java:89)
+	at com.intellij.execution.process.BaseOSProcessHandler$2$1.consume(BaseOSProcessHandler.java:155)
+	at com.intellij.execution.process.BaseOSProcessHandler$2$1.consume(BaseOSProcessHandler.java:140)
+	at com.intellij.execution.process.ProcessWaitFor$1.run(ProcessWaitFor.java:66)
+	... 5 more
+2018-02-13 21:12:18 ERROR VcsLogData.logErrorHeader(138) - IntelliJ IDEA 2017.3.4  Build #IC-173.4548.28
+2018-02-13 21:12:18 ERROR VcsLogData.logErrorHeader(145) - JDK: 1.8.0_152-release
+2018-02-13 21:12:18 ERROR VcsLogData.logErrorHeader(146) - VM: OpenJDK 64-Bit Server VM
+2018-02-13 21:12:18 ERROR VcsLogData.logErrorHeader(147) - Vendor: JetBrains s.r.o
+2018-02-13 21:12:18 ERROR VcsLogData.logErrorHeader(148) - OS: Windows 7
+2018-02-13 21:12:18 ERROR VcsLogData.logErrorHeader(154) - Last Action: 
+2018-02-13 21:12:47 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-13 21:13:47 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-13 21:14:05 INFO  JavaRushTasksProjectComponent.projectClosing(157) - ---------- Project JavaRushTasks closed ----------
+
+2018-02-13 21:14:05 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-02-13 21:16:08 INFO  JavaRushTasksProjectComponent.projectOpened(68) - ---------- Project JavaRushTasks opened ----------
+
+2018-02-13 21:16:08 INFO  ApacheHttpClient.createAsyncHttpClient(125) - Выбрано 1 прокси.
+2018-02-13 21:16:08 INFO  ApacheHttpClient.<init>(85) - ApacheHttpClient проинстанциирован успешно.
+2018-02-13 21:16:09 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-02-13 21:16:09 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-02-13 21:16:09 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2018-02-13 21:16:09 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2018-02-13 21:16:09 INFO  ApacheHttpClient.login(213) - responseCode = 200
+2018-02-13 21:16:09 INFO  ApacheHttpClient.login(244) - JSESSIONID=57A0B51F82CB217E07E93FCB737B8A06
+2018-02-13 21:16:09 INFO  ApacheHttpClient.refreshUserInfo(272) - responseCode = 200
+2018-02-13 21:16:09 INFO  ApacheHttpClient.refreshUserInfo(278) - Информация о пользователе получена.
+2018-02-13 21:16:10 INFO  ApacheHttpClient.startGA(32) - GAService запущен.
+2018-02-13 21:16:10 INFO  AbstractRestApiClient.startService(70) - EventsService запущен.
+2018-02-13 21:16:13 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-02-13 21:16:13 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-02-13 21:16:13 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-02-13 21:16:13 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-02-13 21:16:15 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-02-13 21:16:24 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-02-13 21:16:24 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-02-13 21:16:26 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-02-13 21:16:26 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-02-13 21:16:27 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-02-13 21:16:27 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-02-13 21:16:30 ERROR GitHandler.error(130) - Cannot run program "C:\Users\AttenCHUN\AppData\Local\GitHubDesktop\GitHubDesktop.exe" (in directory "C:\Users\AttenCHUN\Google Диск\javarush\JavaRushTasks"): CreateProcess error=2, Не удается найти указанный файл
+com.intellij.execution.process.ProcessNotCreatedException: Cannot run program "C:\Users\AttenCHUN\AppData\Local\GitHubDesktop\GitHubDesktop.exe" (in directory "C:\Users\AttenCHUN\Google Диск\javarush\JavaRushTasks"): CreateProcess error=2, Не удается найти указанный файл
+	at com.intellij.execution.configurations.GeneralCommandLine.createProcess(GeneralCommandLine.java:386)
+	at com.intellij.execution.process.OSProcessHandler.<init>(OSProcessHandler.java:44)
+	at com.intellij.execution.process.KillableProcessHandler.<init>(KillableProcessHandler.java:44)
+	at com.intellij.execution.process.KillableProcessHandler.<init>(KillableProcessHandler.java:52)
+	at git4idea.commands.GitTextHandler$MyOSProcessHandler.<init>(GitTextHandler.java:172)
+	at git4idea.commands.GitLineHandler.createProcess(GitLineHandler.java:175)
+	at git4idea.commands.GitTextHandler.startProcess(GitTextHandler.java:68)
+	at git4idea.commands.GitHandler.start(GitHandler.java:454)
+	at git4idea.commands.GitHandler.runInCurrentThread(GitHandler.java:751)
+	at git4idea.history.GitLogUtil.readRecordsFromHandler(GitLogUtil.java:337)
+	at git4idea.history.GitLogUtil.readRecords(GitLogUtil.java:302)
+	at git4idea.history.GitLogUtil.collectMetadata(GitLogUtil.java:200)
+	at git4idea.history.GitLogUtil.collectMetadata(GitLogUtil.java:177)
+	at git4idea.log.GitLogProvider.readFirstBlock(GitLogProvider.java:111)
+	at com.intellij.vcs.log.data.VcsLogRefresherImpl$2.each(VcsLogRefresherImpl.java:133)
+	at com.intellij.vcs.log.data.VcsLogRefresherImpl$ProviderIterator.iterate(VcsLogRefresherImpl.java:394)
+	at com.intellij.vcs.log.data.VcsLogRefresherImpl.loadRecentData(VcsLogRefresherImpl.java:139)
+	at com.intellij.vcs.log.data.VcsLogRefresherImpl.readFirstBlock(VcsLogRefresherImpl.java:111)
+	at com.intellij.vcs.log.data.VcsLogData$1.run(VcsLogData.java:154)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:713)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:543)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:488)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:94)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl$2.run(ProgressManagerImpl.java:165)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:315)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: Cannot run program "C:\Users\AttenCHUN\AppData\Local\GitHubDesktop\GitHubDesktop.exe" (in directory "C:\Users\AttenCHUN\Google Диск\javarush\JavaRushTasks"): CreateProcess error=2, Не удается найти указанный файл
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at com.intellij.execution.configurations.GeneralCommandLine.startProcess(GeneralCommandLine.java:415)
+	at com.intellij.execution.configurations.GeneralCommandLine.createProcess(GeneralCommandLine.java:382)
+	... 31 more
+Caused by: java.io.IOException: CreateProcess error=2, Не удается найти указанный файл
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:386)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:137)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 33 more
+2018-02-13 21:16:30 ERROR GitHandler.logErrorHeader(138) - IntelliJ IDEA 2017.3.4  Build #IC-173.4548.28
+2018-02-13 21:16:31 ERROR GitHandler.logErrorHeader(145) - JDK: 1.8.0_152-release
+2018-02-13 21:16:31 ERROR GitHandler.logErrorHeader(146) - VM: OpenJDK 64-Bit Server VM
+2018-02-13 21:16:31 ERROR GitHandler.logErrorHeader(147) - Vendor: JetBrains s.r.o
+2018-02-13 21:16:31 ERROR GitHandler.logErrorHeader(148) - OS: Windows 7
+2018-02-13 21:16:31 ERROR GitHandler.logErrorHeader(154) - Last Action: Github.Share
+2018-02-13 21:16:31 ERROR VcsLogData.error(130) - Cannot run program "C:\Users\AttenCHUN\AppData\Local\GitHubDesktop\GitHubDesktop.exe" (in directory "C:\Users\AttenCHUN\Google Диск\javarush\JavaRushTasks"): CreateProcess error=2, Не удается найти указанный файл
+com.intellij.openapi.vcs.VcsException: Cannot run program "C:\Users\AttenCHUN\AppData\Local\GitHubDesktop\GitHubDesktop.exe" (in directory "C:\Users\AttenCHUN\Google Диск\javarush\JavaRushTasks"): CreateProcess error=2, Не удается найти указанный файл
+	at git4idea.history.GitLogOutputSplitter.startFailed(GitLogOutputSplitter.java:125)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intellij.util.EventDispatcher.dispatch(EventDispatcher.java:99)
+	at com.intellij.util.EventDispatcher.access$200(EventDispatcher.java:35)
+	at com.intellij.util.EventDispatcher$2.invoke(EventDispatcher.java:79)
+	at com.sun.proxy.$Proxy100.startFailed(Unknown Source)
+	at git4idea.commands.GitHandler.start(GitHandler.java:465)
+	at git4idea.commands.GitHandler.runInCurrentThread(GitHandler.java:751)
+	at git4idea.history.GitLogUtil.readRecordsFromHandler(GitLogUtil.java:337)
+	at git4idea.history.GitLogUtil.readRecords(GitLogUtil.java:302)
+	at git4idea.history.GitLogUtil.collectMetadata(GitLogUtil.java:200)
+	at git4idea.history.GitLogUtil.collectMetadata(GitLogUtil.java:177)
+	at git4idea.log.GitLogProvider.readFirstBlock(GitLogProvider.java:111)
+	at com.intellij.vcs.log.data.VcsLogRefresherImpl$2.each(VcsLogRefresherImpl.java:133)
+	at com.intellij.vcs.log.data.VcsLogRefresherImpl$ProviderIterator.iterate(VcsLogRefresherImpl.java:394)
+	at com.intellij.vcs.log.data.VcsLogRefresherImpl.loadRecentData(VcsLogRefresherImpl.java:139)
+	at com.intellij.vcs.log.data.VcsLogRefresherImpl.readFirstBlock(VcsLogRefresherImpl.java:111)
+	at com.intellij.vcs.log.data.VcsLogData$1.run(VcsLogData.java:154)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:713)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:543)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:488)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:94)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl$2.run(ProgressManagerImpl.java:165)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:315)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.intellij.execution.process.ProcessNotCreatedException: Cannot run program "C:\Users\AttenCHUN\AppData\Local\GitHubDesktop\GitHubDesktop.exe" (in directory "C:\Users\AttenCHUN\Google Диск\javarush\JavaRushTasks"): CreateProcess error=2, Не удается найти указанный файл
+	at com.intellij.execution.configurations.GeneralCommandLine.createProcess(GeneralCommandLine.java:386)
+	at com.intellij.execution.process.OSProcessHandler.<init>(OSProcessHandler.java:44)
+	at com.intellij.execution.process.KillableProcessHandler.<init>(KillableProcessHandler.java:44)
+	at com.intellij.execution.process.KillableProcessHandler.<init>(KillableProcessHandler.java:52)
+	at git4idea.commands.GitTextHandler$MyOSProcessHandler.<init>(GitTextHandler.java:172)
+	at git4idea.commands.GitLineHandler.createProcess(GitLineHandler.java:175)
+	at git4idea.commands.GitTextHandler.startProcess(GitTextHandler.java:68)
+	at git4idea.commands.GitHandler.start(GitHandler.java:454)
+	... 24 more
+Caused by: java.io.IOException: Cannot run program "C:\Users\AttenCHUN\AppData\Local\GitHubDesktop\GitHubDesktop.exe" (in directory "C:\Users\AttenCHUN\Google Диск\javarush\JavaRushTasks"): CreateProcess error=2, Не удается найти указанный файл
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+	at com.intellij.execution.configurations.GeneralCommandLine.startProcess(GeneralCommandLine.java:415)
+	at com.intellij.execution.configurations.GeneralCommandLine.createProcess(GeneralCommandLine.java:382)
+	... 31 more
+Caused by: java.io.IOException: CreateProcess error=2, Не удается найти указанный файл
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:386)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:137)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+	... 33 more
+2018-02-13 21:16:31 ERROR VcsLogData.logErrorHeader(138) - IntelliJ IDEA 2017.3.4  Build #IC-173.4548.28
+2018-02-13 21:16:31 ERROR VcsLogData.logErrorHeader(145) - JDK: 1.8.0_152-release
+2018-02-13 21:16:31 ERROR VcsLogData.logErrorHeader(146) - VM: OpenJDK 64-Bit Server VM
+2018-02-13 21:16:31 ERROR VcsLogData.logErrorHeader(147) - Vendor: JetBrains s.r.o
+2018-02-13 21:16:31 ERROR VcsLogData.logErrorHeader(148) - OS: Windows 7
+2018-02-13 21:16:31 ERROR VcsLogData.logErrorHeader(154) - Last Action: Github.Share
+2018-02-13 21:17:10 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-13 21:18:10 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-13 21:19:10 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-13 21:20:10 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-13 21:21:10 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-13 21:22:10 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-13 21:23:10 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-13 21:24:10 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-13 21:25:10 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-13 21:26:10 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-13 21:27:10 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-13 21:28:10 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-13 21:28:12 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-02-13 21:28:12 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-02-13 21:29:10 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-13 21:30:10 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-13 21:31:10 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-13 21:32:10 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-13 21:33:10 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-13 21:34:10 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-13 21:35:10 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-13 21:36:10 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-13 21:37:10 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-13 21:38:10 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-13 21:39:10 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-13 21:40:10 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-13 21:41:10 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-13 21:42:10 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
