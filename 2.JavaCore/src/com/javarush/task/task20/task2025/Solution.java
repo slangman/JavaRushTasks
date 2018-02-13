@@ -63,6 +63,7 @@ public class Solution {
 
     public static void main(String[] args) {
         getNumbers(9999999999L);
+        System.out.println("ololo");
     }
 }
 
