@@ -8,6 +8,10 @@ import java.util.List;
 Алгоритмы-числа
 */
 
+/*
+Add a new comment
+ */
+
 
 public class Solution {
     public static long[] getNumbers(long N) {
