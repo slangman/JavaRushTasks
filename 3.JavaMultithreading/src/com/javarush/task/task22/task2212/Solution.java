@@ -1,9 +1,9 @@
 package com.javarush.task.task22.task2212;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
+//import java.io.BufferedReader;
+//import java.io.FileNotFoundException;
+//import java.io.FileReader;
+//import java.io.IOException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -26,10 +26,13 @@ public class Solution {
             numbers++;
         }
 
-        //condition
         if (telNumber.matches("(^[\\(\\+\\d]).*(\\d)")) {
             if ((numbers == 12 && (telNumber.charAt(0)=='+')) || numbers == 10) {
-                if (telNumber.matches(".*(\\(?\\d{3}\\)?)([\\d*]+-?[\\d*]+-?[\\d*]-?[\\d*])")) return true;
+                if (telNumber.contains("(") && telNumber.contains(")")) {
+                    if (telNumber.matches(".*(\\({1}\\d{3}\\){1})([\\d*]+-?[\\d*]+-?[\\d*]-?[\\d*])")) return true;
+                    else return false;
+                } else if (telNumber.matches(".*(\\(?\\d{3}\\)?)([\\d*]+-?[\\d*]+-?[\\d*]-?[\\d*])")) return true;
+                //if (telNumber.matches(".*(\\({1}\\d{3}\\){1})([\\d*]+-?[\\d*]+-?[\\d*]-?[\\d*])")) return true;
                 else return false;
             }
             else return false;
@@ -38,6 +41,8 @@ public class Solution {
     }
 
     public static void main(String[] args) {
+        //check
+        /*
         try {
             BufferedReader fileReader = new BufferedReader(new FileReader("c:\\1.txt"));
             String s;
@@ -50,5 +55,6 @@ public class Solution {
         catch (IOException e) {
             System.out.println("Input-output error!");
         }
+        */
     }
 }
