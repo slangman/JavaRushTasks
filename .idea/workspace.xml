@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="Task 2212 solved completely.">
-      <change beforePath="" afterPath="$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task23/task2312/Mouse.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task23/task2312/Room.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task23/task2312/Snake.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task23/task2312/SnakeDirection.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/3.JavaMultithreading/src/com/javarush/task/task23/task2312/SnakeSection.java" />
+    <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/JavaRushPlugin.properties" afterPath="$PROJECT_DIR$/JavaRushPlugin.properties" />
-      <change beforePath="$PROJECT_DIR$/out.log" afterPath="$PROJECT_DIR$/out.log" />
-      <change beforePath="$PROJECT_DIR$/out.log.1" afterPath="$PROJECT_DIR$/out.log.1" />
     </list>
     <ignored path="JavaRushTasks.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -796,7 +788,14 @@
       <option name="project" value="LOCAL" />
       <updated>1519285968662</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Added solved tasks:&#10;2301&#10;2302&#10;2303&#10;2304&#10;2305&#10;2306&#10;2312">
+      <created>1519992667093</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1519992667093</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -804,7 +803,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -925,7 +923,8 @@
     <MESSAGE value="Addded new solved tasks:&#10;2207&#10;2208&#10;2209" />
     <MESSAGE value="Addded new solved tasks:&#10;2210&#10;2211&#10;&#10;Task 2212 solved partially.&#10;Issue with brackets condition." />
     <MESSAGE value="Task 2212 solved completely." />
-    <option name="LAST_COMMIT_MESSAGE" value="Task 2212 solved completely." />
+    <MESSAGE value="Added solved tasks:&#10;2301&#10;2302&#10;2303&#10;2304&#10;2305&#10;2306&#10;2312" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added solved tasks:&#10;2301&#10;2302&#10;2303&#10;2304&#10;2305&#10;2306&#10;2312" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
